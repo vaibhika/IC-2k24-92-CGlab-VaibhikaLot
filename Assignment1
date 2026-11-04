@@ -1,1 +1,43 @@
 
+# Basic Graphics Primitives
+
+## Aim
+To write a C++ program using the `graphics.h` library to draw basic graphics primitives such as a straight line, circle, rectangle, and triangle.
+
+## Description
+This program uses the WinBGIm graphics library to display four basic shapes in a graphics window. Each shape is drawn using a different color and is labeled for identification.
+
+## Shapes Drawn
+- **Straight Line** – Drawn using the `line()` function.
+- **Circle** – Drawn using the `circle()` function.
+- **Rectangle** – Drawn using the `rectangle()` function.
+- **Triangle** – Drawn using three `line()` functions.
+
+## Requirements
+- C++ compiler (MinGW)
+- WinBGIm graphics library
+- `graphics.h` header file
+
+## How to Compile
+Open the terminal in the assignment folder and run:
+
+```bash
+g++ basicshapes.cpp -o basicshapes.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+```
+
+## How to Run
+In Windows PowerShell, execute:
+
+```powershell
+.\basicshapes.exe
+```
+
+## Output
+The program displays a graphics window containing a straight line, circle, rectangle, and triangle with their respective labels.
+
+## Files Included
+- `basicshapes.cpp` – Source code
+- `basicshapes.exe` – Executable program
+- `image.png` – Screenshot of the program output
+- `readme.md` – Assignment description and instructions
+
